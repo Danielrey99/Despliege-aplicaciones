@@ -1,0 +1,17 @@
+-para windows hace falta wsl
+-abrir terminal (clear para limpiar terminl)
+-"docker pull containous/whoami:latest" descargar imagen
+-"docker images" para ver las imagenes descargadas
+-"docker inspect (nombre o id)" para ver el hash completo.ESta donde RepoDigest a partir del @
+-"docker rmi (id)" para eliminar imagenes
+
+-"docker run -d -P --name prueba containus/whoami"Crea un contenedor en segundo plano y un puerto aleatorio
+-"docker ps" is used to list all the running Docker containers on a system.
+-http://localhost:32768 para aceder al contenedor usando su puerto
+-"docker stop nombre" para parar
+-"docker rm nombre" para borrar
+-"docker exec -it nombre bash" para entrar al contenedor
+
+-"docker network create testnet"crear red
+-"docker network connect testnet testserver1" unirlo a la red
+

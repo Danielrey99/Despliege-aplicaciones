@@ -1,0 +1,1 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBixM1rdqLc7qGT59GXm2GjHtesIsLRl2nxRelhCUrGW daniel.rey@ciclosmontecastelo.com

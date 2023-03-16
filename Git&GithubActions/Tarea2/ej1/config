@@ -1,0 +1,4 @@
+Host daw-ssh-git
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/daw-tarea-2
